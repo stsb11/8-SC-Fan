@@ -1,0 +1,186 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+HTML_HEAD_EXTRA: <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+#+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil toc:nil html-style:nil tex:dvipng
+
+#+TITLE: The PIC Fan
+#+AUTHOR: Marc Scott
+
+#+BEGIN_HTML
+  <div class="github-fork-ribbon-wrapper left">
+    <div class="github-fork-ribbon">
+      <a href="https://github.com/MarcScott/8-CS-Fan">Fork me on GitHub</a>
+    </div>
+  </div>
+<div id="stickyribbon">
+    <ul>
+      <li><a href="1_Lesson.html">Week1</a></li>
+      <li><a href="2_Lesson.html">Week2</a></li>
+      <li><a href="3_Lesson.html">Week3</a></li>
+      <li><a href="4_Lesson.html">Week4</a></li>
+      <li><a href="5_Lesson.html">Week5</a></li>
+      <li><a href="6_Lesson.html">Week6</a></li>
+      <li><a href="assessment.html">Assessment</a></li>
+
+    </ul>
+  </div>
+#+END_HTML
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+
+* Using a potentiometer
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- A potentiometer is a component we can use in our circuits as potential divider.
+- Before you learn about the potentiometer, you need to learn what is meant by a potential divider.
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Open Circuit Wizard and create the circuit shown below.
+[[file:img/circuit1.png]]
+- Now press play and the three voltmeters should show potential difference across each of the resistors and across the pair of them.
+- Because both resistors have the same value, the potential difference supplies by the battery is equally /divided/ across each resistor.
+- Now let's change the value of one of the resistors.
+[[file:img/circuit2.png]]
+- Press play again, and see how the potential differences have changed.
+** Badge It - Silver
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Copy and complete the following table.
+| Top Resistor Value | Bottom Resistor Value | Top Resistor PD | Bottom Resistor PD |
+| 2k                 | 1k                    | 3V              | 1.5V               |
+| 0.5k               | 4k                    |                 |                    |
+| 800                | 100                   |                 |                    |
+| 20k                | 160k                  |                 |                    | 
+- Can you see a pattern between resistor values and potential difference?
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- If we know the resistor values and the total potential difference provided by the battery, it is easy to work out what the potential differences across each resistor will be.
+$$V_{bottom} = \frac{R_{bottom}}{R_{top}+R_{bottom}}.V_{total}$$
+
+- If we want to find V_top then we can just do the following
+$$V_{top}=V_{total}-V_{bottom}$$
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+- Why is this important?
+- By changing resistor values we can influence the Potential Difference at an analogue input of a GENIE chip.
+- Set up the circuit as shown below, and then create the corresponding flowchart. (Make sure you use a =GENIE C08=)
+[[file:img/circuit3.png]]
+[[file:img/circuit4.png]]
+- Simulate the circuit and then choose =View the analogue sensor readings= from the menu on the right.
+[[file:img/circuit5.png]]
+- The flowchart is setup so that the LED will turn on when the GENIE analogue sensor detects a value of 100.
+- Now change the value of one of the resistors. Keep tweaking it until the LED comes on.
+** Badge It - Gold
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Look at the following flowchart.
+[[file:img/circuit6.png]]
+- What do you think the effect of changing the resistor values will be? Try out the flowchart if you can't figure it out.
+- In your own words describe what the program does.
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- It would be inconvenient to have to swap in and out resistors to alter the potential difference reaching our GENIE chip. This is where a potentiometer comes in handy.
+- Imagine you had a length of resistive wire - as shown below.
+[[file:img/pot1.jpg]]
+- We can consider this wire to be the equivalent of a single resistor.
+[[file:img/pot2.jpg]]
+- But we can place a third contact point midway along the wire. This now divides it up into two resistors.
+[[file:img/pot3.jpg]]
+- This then makes it the equivalent to two resistors.
+[[file:img/pot4.jpg]]
+- Now we can vary the size of the two resistors by moving the third contact point up and down the wire.
+[[file:img/pot5.jpg]]
+- This is how a potentiometer works. A coil of wire is used and the third contact point is normally moved by rotating a dial.
+[[http://www.circuitstoday.com/wp-content/uploads/2009/08/variable-resistor-adjustable.png]]
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+- Let's place a potentiometer into our circuit.
+[[file:img/circuit7.png]]
+- Simulate the circuit and adjust the potentiometer to see how it effects the LED.
+** Badge It - Platinum
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Use your knowledge of potentiometers to create a circuit where by a potentiometer controls the number of LEDs (from 1 to 4) that are on in the circuit. 

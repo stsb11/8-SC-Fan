@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>The PIC Fan</title>
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/navbar.js" type="text/javascript"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">The PIC Fan</h1>
+  <div class="github-fork-ribbon-wrapper left">
+    <div class="github-fork-ribbon">
+      <a href="https://github.com/MarcScott/8-CS-Fan">Fork me on GitHub</a>
+    </div>
+  </div>
+<div id="stickyribbon">
+    <ul>
+      <li><a href="1_Lesson.html">Week1</a></li>
+      <li><a href="2_Lesson.html">Week2</a></li>
+      <li><a href="3_Lesson.html">Week3</a></li>
+      <li><a href="4_Lesson.html">Week4</a></li>
+      <li><a href="5_Lesson.html">Week5</a></li>
+      <li><a href="6_Lesson.html">Week6</a></li>
+      <li><a href="assessment.html">Assessment</a></li>
+
+    </ul>
+  </div>
+<div id="outline-container-sec-1" class="outline-2 activity">
+<h2 id="sec-1"><span class="section-number-2">1</span> Using a potentiometer</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-sec-1-1" class="outline-3 learn">
+<h3 id="sec-1-1">Learn It</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>A potentiometer is a component we can use in our circuits as potential divider.
+</li>
+<li>Before you learn about the potentiometer, you need to learn what is meant by a potential divider.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-2" class="outline-3 try">
+<h3 id="sec-1-2">Try It</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>Open Circuit Wizard and create the circuit shown below.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="img/circuit1.png" alt="circuit1.png" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Now press play and the three voltmeters should show potential difference across each of the resistors and across the pair of them.
+</li>
+<li>Because both resistors have the same value, the potential difference supplies by the battery is equally <i>divided</i> across each resistor.
+</li>
+<li>Now let's change the value of one of the resistors.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="img/circuit2.png" alt="circuit2.png" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Press play again, and see how the potential differences have changed.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-3" class="outline-3 badge">
+<h3 id="sec-1-3">Badge It - Silver</h3>
+<div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li>Copy and complete the following table.
+</li>
+</ul>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="left">Top Resistor Value</td>
+<td class="left">Bottom Resistor Value</td>
+<td class="left">Top Resistor PD</td>
+<td class="left">Bottom Resistor PD</td>
+</tr>
+
+<tr>
+<td class="left">2k</td>
+<td class="left">1k</td>
+<td class="left">3V</td>
+<td class="left">1.5V</td>
+</tr>
+
+<tr>
+<td class="left">0.5k</td>
+<td class="left">4k</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">800</td>
+<td class="left">100</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">20k</td>
+<td class="left">160k</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+<ul class="org-ul">
+<li>Can you see a pattern between resistor values and potential difference?
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-4" class="outline-3 learn">
+<h3 id="sec-1-4">Learn It</h3>
+<div class="outline-text-3" id="text-1-4">
+<ul class="org-ul">
+<li>If we know the resistor values and the total potential difference provided by the battery, it is easy to work out what the potential differences across each resistor will be.
+</li>
+</ul>
+<p>
+<img src="ltxpng/2_Lesson_9230f973abed342208a7f33571ec2e0c39dcd053.png" alt="$$V_{bottom} = \frac{R_{bottom}}{R_{top}+R_{bottom}}.V_{total}$$" />
+</p>
+
+<ul class="org-ul">
+<li>If we want to find V<sub>top</sub> then we can just do the following
+</li>
+</ul>
+<p>
+<img src="ltxpng/2_Lesson_62ddd1ad26f794ec8c381ad2d17b9312d433aa76.png" alt="$$V_{top}=V_{total}-V_{bottom}$$" />
+</p>
+</div>
+</div>
+<div id="outline-container-sec-1-5" class="outline-3 try">
+<h3 id="sec-1-5">Try It</h3>
+<div class="outline-text-3" id="text-1-5">
+
+<ul class="org-ul">
+<li>Why is this important?
+</li>
+<li>By changing resistor values we can influence the Potential Difference at an analogue input of a GENIE chip.
+</li>
+<li>Set up the circuit as shown below, and then create the corresponding flowchart. (Make sure you use a <code>GENIE C08</code>)
+</li>
+</ul>
+<p>
+<img src="img/circuit3.png" alt="circuit3.png" />
+<img src="img/circuit4.png" alt="circuit4.png" />
+</p>
+<ul class="org-ul">
+<li>Simulate the circuit and then choose <code>View the analogue sensor readings</code> from the menu on the right.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="img/circuit5.png" alt="circuit5.png" />
+</p>
+</div>
+<ul class="org-ul">
+<li>The flowchart is setup so that the LED will turn on when the GENIE analogue sensor detects a value of 100.
+</li>
+<li>Now change the value of one of the resistors. Keep tweaking it until the LED comes on.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-6" class="outline-3 badge">
+<h3 id="sec-1-6">Badge It - Gold</h3>
+<div class="outline-text-3" id="text-1-6">
+<ul class="org-ul">
+<li>Look at the following flowchart.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="img/circuit6.png" alt="circuit6.png" />
+</p>
+</div>
+<ul class="org-ul">
+<li>What do you think the effect of changing the resistor values will be? Try out the flowchart if you can't figure it out.
+</li>
+<li>In your own words describe what the program does.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-7" class="outline-3 learn">
+<h3 id="sec-1-7">Learn It</h3>
+<div class="outline-text-3" id="text-1-7">
+<ul class="org-ul">
+<li>It would be inconvenient to have to swap in and out resistors to alter the potential difference reaching our GENIE chip. This is where a potentiometer comes in handy.
+</li>
+<li>Imagine you had a length of resistive wire - as shown below.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="img/pot1.jpg" alt="pot1.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>We can consider this wire to be the equivalent of a single resistor.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="img/pot2.jpg" alt="pot2.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>But we can place a third contact point midway along the wire. This now divides it up into two resistors.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="img/pot3.jpg" alt="pot3.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>This then makes it the equivalent to two resistors.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="img/pot4.jpg" alt="pot4.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Now we can vary the size of the two resistors by moving the third contact point up and down the wire.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="img/pot5.jpg" alt="pot5.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li>This is how a potentiometer works. A coil of wire is used and the third contact point is normally moved by rotating a dial.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="http://www.circuitstoday.com/wp-content/uploads/2009/08/variable-resistor-adjustable.png" alt="variable-resistor-adjustable.png" />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-1-8" class="outline-3 build">
+<h3 id="sec-1-8">Build It</h3>
+<div class="outline-text-3" id="text-1-8">
+<ul class="org-ul">
+<li>Let's place a potentiometer into our circuit.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="img/circuit7.png" alt="circuit7.png" />
+</p>
+</div>
+<ul class="org-ul">
+<li>Simulate the circuit and adjust the potentiometer to see how it effects the LED.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-9" class="outline-3 badge">
+<h3 id="sec-1-9">Badge It - Platinum</h3>
+<div class="outline-text-3" id="text-1-9">
+<ul class="org-ul">
+<li>Use your knowledge of potentiometers to create a circuit where by a potentiometer controls the number of LEDs (from 1 to 4) that are on in the circuit. 
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="validation"></p>
+</div>
+</body>
+</html>
