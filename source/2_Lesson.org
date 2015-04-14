@@ -91,7 +91,6 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-
 * Using a potentiometer
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -137,7 +136,6 @@ $$V_{top}=V_{total}-V_{bottom}$$
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-
 - Why is this important?
 - By changing resistor values we can influence the Potential Difference at an analogue input of a GENIE chip.
 - Set up the circuit as shown below, and then create the corresponding flowchart. (Make sure you use a =GENIE C08=)
@@ -153,7 +151,7 @@ $$V_{top}=V_{total}-V_{bottom}$$
 :END:
 - Look at the following flowchart.
 [[file:img/circuit6.png]]
-- What do you think the effect of changing the resistor values will be? Try out the flowchart if you can't figure it out.
+- What do you think the effect of changing the resistor values will be? Try out the flowchart if you can't figure it out. /(You can create the =A=A1/50= using the =Expr= block)/
 - In your own words describe what the program does.
 ** Learn It
 :PROPERTIES:
