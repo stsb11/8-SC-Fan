@@ -1,0 +1,154 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+HTML_HEAD_EXTRA: <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+#+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil toc:nil html-style:nil tex:dvipng
+
+#+TITLE: The PIC Fan
+#+AUTHOR: Marc Scott
+
+#+BEGIN_HTML
+  <div class="github-fork-ribbon-wrapper left">
+    <div class="github-fork-ribbon">
+      <a href="https://github.com/MarcScott/8-CS-Fan">Fork me on GitHub</a>
+    </div>
+  </div>
+<div id="stickyribbon">
+    <ul>
+      <li><a href="1_Lesson.html">Week1</a></li>
+      <li><a href="2_Lesson.html">Week2</a></li>
+      <li><a href="3_Lesson.html">Week3</a></li>
+      <li><a href="4_Lesson.html">Week4</a></li>
+      <li><a href="5_Lesson.html">Week5</a></li>
+      <li><a href="6_Lesson.html">Week6</a></li>
+      <li><a href="assessment.html">Assessment</a></li>
+
+    </ul>
+  </div>
+#+END_HTML
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Testing your board
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- To test your circuit, you're going to need to attach your motor, but this is just going to be temporary. You'll need to desolder it once you are sure the circuit is functioning correctly.
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+- Firstly, attach your motor leads to the motor contacts, twisting the tips of the leads together.
+[[file:img/testing1.jpg]]
+- Then apply solder so that you have good continuity between the motor and the leads.
+[[file:img/testing2.jpg]]
+- Lastly you'll need to solder a 100nF capacitor to the back of the motor. This prevents the motor from drawing too much current when it is switched on, as the capacitor needs to charge first. Without this, the GENIE chip in the circuit would just reset, as it wouldn't be getting enough current.
+[[file:img/testing3.jpg]]
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+- Next you'll need power.
+- For testing purposes, you can use a standard powersupply set to 6V.
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+- We'll start by making sure that the GENIE chip can communicate with a computer.
+- Power up your circuit, load up Circuit Wizard and use a download cable to connect your PCB to the computer.
+- Now click on the =Program= tab on the right hand side of the screen.
+- You should see something like the image below.
+[[file:img/testing4.png]]
+- If the GENIE chip is not connecting to the software there are a few things you should try to investigate:
+  1. Check that your power supply is on and that you have the polarity correct.
+  2. Check that you havce a GENIE chip in the circuit.
+  3. Check that your GENIE chip is in the circuit the correct way around and firmly in the chip carrier
+  4. Try and change the download cable. If the one you have is faulty then give it to your teacher.
+  5. Check the soldering on your PCB - particularly around the download socket and chip carrier.
+  6. Ask your teacher for assistance
+- Once you GENIE chip has connected, choose =Control Device=
+[[file:img/testing5.png]]
+- Now you'll need to change the program settings for the GENIE chip. Select =3 Inputs, 2 Outputs (G0,G1)=
+[[file:img/testing6.png]]
+- We can now test if the circuit is working or not.
+- Firstly hold down your push to make switch and you should see =Input 3= change from 0 to 1.
+- Next click on =Output 0= and your motor should start up. (Don't worry if it kills the connection after a few seconds - this is normal)
+- If neither of these two things happen, check your solder joins for the switch and motor.
+- Lastly we'll test the potentiometer.
+- Click on Cancel and then select =Calibrate Sensor=
+- Again change the GENIE chip settings to  =3 Inputs, 2 Outputs (G0,G1)=
+[[file:img/testing7.png]]
+- Now turn the dial of the potentiometer, and you should see the =A4= sensor change.
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+- If all that is working, you are ready to continue your build.
+- Desolder the motor from the leads and then progress to Lesson 5, where you can continue assembling your fan.
