@@ -116,7 +116,7 @@
 :HTML_CONTAINER_CLASS: test
 :END:
 - Next you'll need power.
-- For testing purposes, you can use a standard powersupply set to 6V.
+- For testing purposes, you can use a standard power-supply set to 6V.
 ** Program It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: program
@@ -128,7 +128,7 @@
 [[file:img/testing4.png]]
 - If the GENIE chip is not connecting to the software there are a few things you should try to investigate:
   1. Check that your power supply is on and that you have the polarity correct.
-  2. Check that you havce a GENIE chip in the circuit.
+  2. Check that you have a GENIE chip in the circuit.
   3. Check that your GENIE chip is in the circuit the correct way around and firmly in the chip carrier
   4. Try and change the download cable. If the one you have is faulty then give it to your teacher.
   5. Check the soldering on your PCB - particularly around the download socket and chip carrier.
