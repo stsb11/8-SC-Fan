@@ -104,7 +104,6 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: test
 :END:
-
 - Firstly, attach your motor leads to the motor contacts, twisting the tips of the leads together.
 [[file:img/testing1.jpg]]
 - Then apply solder so that you have good continuity between the motor and the leads.
@@ -146,6 +145,21 @@
 - Again change the GENIE chip settings to  =3 Inputs, 2 Outputs (G0,G1)=
 [[file:img/testing7.png]]
 - Now turn the dial of the potentiometer, and you should see the =A4= sensor change.
+** Badge It - Silver
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Use screenshots to evidence that your GENIE chip connected to the Circuit Wizard Software.
+** Badge It - Gold
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Use screenshots to evidence that your switch and potentiometer is working.
+** Badge It - Platinum
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Use video to evidence that your motor is working.
 ** Build It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build

@@ -25,7 +25,6 @@
 
 
 
-
 * [[file:pages/3_Lesson.html][Week 3 - Testing]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
