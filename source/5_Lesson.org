@@ -1,0 +1,142 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+HTML_HEAD_EXTRA: <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+#+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil toc:nil html-style:nil tex:dvipng
+
+#+TITLE: The PIC Fan
+#+AUTHOR: Marc Scott
+
+#+BEGIN_HTML
+  <div class="github-fork-ribbon-wrapper left">
+    <div class="github-fork-ribbon">
+      <a href="https://github.com/MarcScott/8-CS-Fan">Fork me on GitHub</a>
+    </div>
+  </div>
+<div id="stickyribbon">
+    <ul>
+      <li><a href="1_Lesson.html">Week1</a></li>
+      <li><a href="2_Lesson.html">Week2</a></li>
+      <li><a href="3_Lesson.html">Week3</a></li>
+      <li><a href="4_Lesson.html">Week4</a></li>
+      <li><a href="5_Lesson.html">Week5</a></li>
+      <li><a href="6_Lesson.html">Week6</a></li>
+      <li><a href="assessment.html">Assessment</a></li>
+
+    </ul>
+  </div>
+#+END_HTML
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Assembling the case.
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+- The first thing to do is to assemble to motor mount.
+- Look carefully at the image below, and in particular the position of the two small holes through which the board's leads will pass.
+- Use a small amount of PVA glue to bond the MDF parts together.
+[[file:img/case6.jpg]]
+- Next take the base of the case, and use machine screws to fix the board to it as shown below.
+[[file:img/case5.jpg]]
+- Now you can feed the leads through the motor mount.
+[[file:img/case7.jpg]]
+- Then use machine screws to mount the motor.
+file:img/case8.jpg
+- Solder the leads to the back of the motor, using a little heat shrink to secure them in place.
+file:img/case9.jpg
+- Next take a toggle switch and secure it into the hole in the side of the case.
+file:img/case10.jpg
+- You can then use some side cutters to cut through one of your power leads. Each end can then be soldered to the toggle switch
+file:img/case11.jpg
+- Now attach the side to the rest of the case.
+file:img/case12.jpg
+- Now we can work on the battery clips
+- Take two AA battery clips and trim the wires as shown below
+file:img/case1.jpg
+- Thread on a small amount of heat shrink and twist the wires together
+file:img/case2.jpg
+- Now solder the wires together.
+file:img/case3.jpg
+- Use a cable tie to secure the battery clips beneath the motor.
+file:img/case13.jpg
+- Solder the battery clips leads to your power leads and cover with heat shrink
+file:img/case14.jpg
+- Then you can add a capacitor to the back of the motor.
+file:img/case15.jpg
+- Take your line-bent blade from Lesson 4 and push it onto the motor axle.
+file:img/case16.jpg
+- You can then add the remaining side of your case, and use PVA to glue it all together.
+file:img/case17.jpg
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Take photographs of your fan (without the front cover) from front, side, top and perspective elevations.
+- Your badge will be awarded according to the quality of your work.
