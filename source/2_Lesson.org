@@ -181,5 +181,6 @@ $$V_{top}=V_{total}-V_{bottom}$$
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Use your knowledge of potentiometers to create a circuit where by a potentiometer controls the number of LEDs (from 1 to 4) that are on in the circuit.
-- As the dial of the porentiometer is turned - the more LEDs come on.
+- Create a circuit with a GENIE CO8 with three outputs that connect to LEDs.
+- An analogue input should connect to a potentiometer.
+- Now write a program that sets the number of LEDs that are on is determined by the potentiometer.
