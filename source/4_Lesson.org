@@ -100,122 +100,66 @@
 :HTML_CONTAINER_CLASS: learn
 :END:
 - Fan blades are designed to push air.
-- There are many factors that will determine the speed and volume of air that passes through your fan blade. 
+- There are many factors that will determine the speed and volume of air that passes through your fan blade.
+  - Surface area of the blades
+  - Number of blades
+  - Pitch of the blades
+  - Shape of the blades
 ** Research It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: research
 :END:
-
+- Use online sources to find three different fan blade designs.
+** Badge It - Silver
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Sketch out the design you are going to use on a piece of paper.
+- Write a couple of sentences to justify your choice of blade.
+- You can photograph and upload your work.
 ** Design It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: design
 :END:
-
-** Build It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: build
-:END:
-
-** Test It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: test
-:END:
-
-** Run It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: run
-:END:
-
-** Document It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: document
-:END:
-
-** Code It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: code
-:END:
-
-** Program It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: program
-:END:
-
-** Try It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-
-** Badge It
+- You're going to design your own fan blade for the project, using SolidWorks.
+- The only restriction is that the diameter of the blades can be no greater than 110mm, and you are _not_ allowed to engrave it.
+- Below is an initial design for a basic blade. Create your blade and ensure it is fully dimensioned. Use the =top= plane to create your sketch.
+[[file:img/SW_Fan.PNG]]
+- You can then trim out the lines that you don't need. As the blade was fully dimensioned prior to trimming, and we're not going to use the sketch in an assembly, we no longer need to worry if it is not fully defined.
+[[file:img/SW_Fan2.PNG]]
+- Save your blade and change the file type to =.dxf=
+[[file:img/SW_Fan3.PNG]]
+- In the context menu on the left, ensure that top is the only box checked. You can then click the green tick to export.
+[[file:img/SW_Fan4.PNG]]
+- A new window will pop up, showing your sketch. You can click on save.
+[[file:img/SW_Fan5.PNG]]
+- Because 2D Design can be a little flakey when importing .dxf sketches, we're going to use Adobe Illustrator.
+- Open up Illustrator and create a new file. Make sure you change the =Color Mode= to =RGB=
+[[file:img/SW_Fan6.PNG]]
+- Now click on File and select =Place= from the drop down menu. You can then choose your .dxf file.
+- In the context menu that appears, make sure you choose the radio button next to =Original Size= and that the Scale is =1:1=
+[[file:img/SW_Fan7.PNG]]
+- You sketch will then appear, after some warnings about fonts, which you can ignore.
+[[file:img/SW_Fan8.PNG]]
+- Select and delete the imported text.
+- Select your entire sketch, then in the top left corner of the screen you should seen an option to change the stroke size.
+[[file:img/SW_Fan9.PNG]]
+- The laser cutter needs a very fine stroke, so change the size to 0.001pt
+[[file:img/SW_Fan10.PNG]]
+- Now /shift click/ the stroke color box. You should see three vertical coloured bars. Click these to convert your sketch to RGB mode.
+[[file:img/SW_Fan11.PNG]]
+- Now use the sliders to set the colour to R-255, G-0, B-0
+[[file:img/SW_Fan12.PNG]]
+- Save the file and send it for cutting.
+** Badge It - Gold
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-
-** Save It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: save
-:END:
-
-* Line bending.
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
-** Learn It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-
-** Research It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: research
-:END:
-
-** Design It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: design
-:END:
-
-** Build It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: build
-:END:
-
-** Test It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: test
-:END:
-
-** Run It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: run
-:END:
-
-** Document It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: document
-:END:
-
-** Code It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: code
-:END:
-
-** Program It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: program
-:END:
-
-** Try It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-
-** Badge It
+- Take a photograph of your fan blade, before you line-bend it.
+** Badge It - Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-
-** Save It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: save
-:END:
+- You've used the line bender before, but ask your teacher for a refresher if you've forgotten what to do.
+- Remember - you get one shot at this, so be careful not to snap your blades.
+- Once you've bent your blades into place, take a phtograph of your finished fan blade.
