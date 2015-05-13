@@ -91,7 +91,7 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-* Programming the fan
+* Pulse Width Modulation (PWM)
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -99,59 +99,26 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-
-** Research It
+- The GENIE chip uses digital outputs.
+- This means that we can either have the motor on, or the motor off.
+- The problem is, we want to control the speed of the fan, so how can we use on/off to change how fast the motor spins
+** Research It 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: research
 :END:
-
-** Design It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: design
-:END:
-
-** Build It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: build
-:END:
-
-** Test It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: test
-:END:
-
-** Run It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: run
-:END:
-
-** Document It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: document
-:END:
-
-** Code It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: code
-:END:
-
-** Program It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: program
-:END:
-
-** Try It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-
-** Badge It
+- Conduct a little web research to find out what is mean by Pulse Width Modulation (PWM).
+** Badge It - Silver
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-
-** Save It
+- Write a program to turn the fan on and off when the Push-To-Make switch (PTM) is pushed and released
+** Badge It - Gold
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: save
+:HTML_CONTAINER_CLASS: badge
 :END:
-
+- Write a program to turn the fan on when the PTM is pushed once, and off when pushed again.
+** Badge It - Platinum
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Write a program that allows the user to change the speed the fan spins at by using what you have learned about PWM.

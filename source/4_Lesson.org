@@ -133,8 +133,8 @@
 [[file:img/SW_Fan4.PNG]]
 - A new window will pop up, showing your sketch. You can click on save.
 [[file:img/SW_Fan5.PNG]]
-- Because 2D Design can be a little flakey when importing .dxf sketches, we're going to use Adobe Illustrator.
-- Open up Illustrator and create a new file. Make sure you change the =Color Mode= to =RGB=
+- Because 2D Design can be a little flaky when importing .dxf sketches, we're going to use Adobe Illustrator.
+- Open up Illustrator and create a new file. Make sure you change the =Colour Mode= to =RGB=
 [[file:img/SW_Fan6.PNG]]
 - Now click on File and select =Place= from the drop down menu. You can then choose your .dxf file.
 - In the context menu that appears, make sure you choose the radio button next to =Original Size= and that the Scale is =1:1=
@@ -146,7 +146,7 @@
 [[file:img/SW_Fan9.PNG]]
 - The laser cutter needs a very fine stroke, so change the size to 0.001pt
 [[file:img/SW_Fan10.PNG]]
-- Now /shift click/ the stroke color box. You should see three vertical coloured bars. Click these to convert your sketch to RGB mode.
+- Now /shift click/ the stroke colour box. You should see three vertical coloured bars. Click these to convert your sketch to RGB mode.
 [[file:img/SW_Fan11.PNG]]
 - Now use the sliders to set the colour to R-255, G-0, B-0
 [[file:img/SW_Fan12.PNG]]
@@ -162,4 +162,4 @@
 :END:
 - You've used the line bender before, but ask your teacher for a refresher if you've forgotten what to do.
 - Remember - you get one shot at this, so be careful not to snap your blades.
-- Once you've bent your blades into place, take a phtograph of your finished fan blade.
+- Once you've bent your blades into place, take a photograph of your finished fan blade.
