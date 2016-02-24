@@ -5,23 +5,22 @@
 #+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil toc:nil html-style:nil tex:dvipng
 
-#+TITLE: The PIC Fan
+#+TITLE: The 555 Fan
 #+AUTHOR: Marc Scott
 
 #+BEGIN_HTML
   <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
-      <a href="https://github.com/MarcScott/8-CS-Fan">Fork me on GitHub</a>
+      <a href="https://github.com/stsb11/8-CS-Fan">Fork me on GitHub</a>
     </div>
   </div>
 <div id="stickyribbon">
     <ul>
       <li><a href="1_Lesson.html">Week1</a></li>
       <li><a href="2_Lesson.html">Week2</a></li>
-      <li><a href="3_Lesson.html">Week3</a></li>
-      <li><a href="4_Lesson.html">Week4</a></li>
-      <li><a href="5_Lesson.html">Week5</a></li>
-      <li><a href="6_Lesson.html">Week6</a></li>
+      <li><a href="4_Lesson.html">Week3</a></li>
+      <li><a href="5_Lesson.html">Week4</a></li>
+      <li><a href="6_Lesson.html">Week5</a></li>
       <li><a href="assessment.html">Assessment</a></li>
 
     </ul>
@@ -137,27 +136,23 @@ $$V_{top}=V_{total}-V_{bottom}$$
 :HTML_CONTAINER_CLASS: try
 :END:
 - Why is this important?
-- By changing resistor values we can influence the Potential Difference at an analogue input of a GENIE chip.
-- Set up the circuit as shown below, and then create the corresponding flowchart. (Make sure you use a =GENIE C08=)
-[[file:img/circuit3.png]]
-[[file:img/circuit4.png]]
-- Simulate the circuit and then choose =View the analogue sensor readings= from the menu on the right.
-[[file:img/circuit5.png]]
-- The flowchart is setup so that the LED will turn on when the GENIE analogue sensor detects a value of 100.
-- Now change the value of one of the resistors. Keep tweaking it until the LED comes on.
+- By changing resistor values we can influence the timing of the 555 timer chip. This will speed up or slow down the time the capacitor takes to charge.
+- Set up the circuit as shown below.
+[[file:img/555circuit.jpg]]
+- Simulate the circuit and then start adjusting the potentiometer. 
+- If you hover the arrow over the motor, you can see the rpm of the motor and the current flow. 
+- Change the value of the potentiometer and see how it affects the speed and current flow through the motor.
+[[file:img/555circuit2.jpg]]
 ** Badge It - Gold
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Look at the following flowchart.
-[[file:img/circuit6.png]]
-- What do you think the effect of changing the resistor values will be? Try out the flowchart if you can't figure it out. /(You can create the =A=A1/50= using the =Expr= block)/
-- In your own words describe what the program does.
+- Draw a graph to display how changing the value of the potentiometer changes the speed of the motor.
 ** Learn It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- It would be inconvenient to have to swap in and out resistors to alter the potential difference reaching our GENIE chip. This is where a potentiometer comes in handy.
+- It would be inconvenient to have to swap in and out resistors to alter the potential difference reaching our 555 chip. This is where a potentiometer comes in handy.
 - Imagine you had a length of resistive wire - as shown below.
 [[file:img/pot1.jpg]]
 - We can consider this wire to be the equivalent of a single resistor.
@@ -174,13 +169,11 @@ $$V_{top}=V_{total}-V_{bottom}$$
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
 :END:
-- Let's place a potentiometer into our circuit.
-[[file:img/circuit7.png]]
+- Let's place a potentiometer into a circuit.
+[[file:img/LEDcontrol.jpg]]
 - Simulate the circuit and adjust the potentiometer to see how it effects the LED.
 ** Badge It - Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Create a circuit with a GENIE CO8 with three outputs that connect to LEDs.
-- An analogue input should connect to a potentiometer.
-- Now write a program that sets the number of LEDs that are on is determined by the potentiometer.
+- Adjust the values C1 and VR1 and write up an explanation as to how the potentiometer and the capacitor affect the LED output.
