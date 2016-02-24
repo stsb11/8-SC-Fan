@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>The PIC Fan</title>
+<title>The 555 Fan</title>
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <link rel="stylesheet" type="text/css" href="css/styles.css"/>
@@ -59,20 +59,19 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">The PIC Fan</h1>
+<h1 class="title">The 555 Fan</h1>
   <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
-      <a href="https://github.com/MarcScott/8-CS-Fan">Fork me on GitHub</a>
+      <a href="https://github.com/stsb11/8-CS-Fan">Fork me on GitHub</a>
     </div>
   </div>
 <div id="stickyribbon">
     <ul>
       <li><a href="1_Lesson.html">Week1</a></li>
       <li><a href="2_Lesson.html">Week2</a></li>
-      <li><a href="3_Lesson.html">Week3</a></li>
-      <li><a href="4_Lesson.html">Week4</a></li>
-      <li><a href="5_Lesson.html">Week5</a></li>
-      <li><a href="6_Lesson.html">Week6</a></li>
+      <li><a href="4_Lesson.html">Week3</a></li>
+      <li><a href="5_Lesson.html">Week4</a></li>
+      <li><a href="6_Lesson.html">Week5</a></li>
       <li><a href="assessment.html">Assessment</a></li>
 
     </ul>
@@ -211,48 +210,36 @@ for the JavaScript code in this tag.
 <ul class="org-ul">
 <li>Why is this important?
 </li>
-<li>By changing resistor values we can influence the Potential Difference at an analogue input of a GENIE chip.
+<li>By changing resistor values we can influence the timing of the 555 timer chip. This will speed up or slow down the time the capacitor takes to charge.
 </li>
-<li>Set up the circuit as shown below, and then create the corresponding flowchart. (Make sure you use a <code>GENIE C08</code>)
-</li>
-</ul>
-<p>
-<img src="img/circuit3.png" alt="circuit3.png" />
-<img src="img/circuit4.png" alt="circuit4.png" />
-</p>
-<ul class="org-ul">
-<li>Simulate the circuit and then choose <code>View the analogue sensor readings</code> from the menu on the right.
+<li>Set up the circuit as shown below.
 </li>
 </ul>
 
 <div class="figure">
-<p><img src="img/circuit5.png" alt="circuit5.png" />
+<p><img src="img/555circuit.jpg" alt="555circuit.jpg" />
 </p>
 </div>
 <ul class="org-ul">
-<li>The flowchart is setup so that the LED will turn on when the GENIE analogue sensor detects a value of 100.
+<li>Simulate the circuit and then start adjusting the potentiometer. 
 </li>
-<li>Now change the value of one of the resistors. Keep tweaking it until the LED comes on.
+<li>If you hover the arrow over the motor, you can see the rpm of the motor and the current flow. 
+</li>
+<li>Change the value of the potentiometer and see how it affects the speed and current flow through the motor.
 </li>
 </ul>
+
+<div class="figure">
+<p><img src="img/555circuit2.jpg" alt="555circuit2.jpg" />
+</p>
+</div>
 </div>
 </div>
 <div id="outline-container-sec-1-6" class="outline-3 badge">
 <h3 id="sec-1-6">Badge It - Gold</h3>
 <div class="outline-text-3" id="text-1-6">
 <ul class="org-ul">
-<li>Look at the following flowchart.
-</li>
-</ul>
-
-<div class="figure">
-<p><img src="img/circuit6.png" alt="circuit6.png" />
-</p>
-</div>
-<ul class="org-ul">
-<li>What do you think the effect of changing the resistor values will be? Try out the flowchart if you can't figure it out. <i>(You can create the <code>A=A1/50</code> using the <code>Expr</code> block)</i>
-</li>
-<li>In your own words describe what the program does.
+<li>Draw a graph to display how changing the value of the potentiometer changes the speed of the motor.
 </li>
 </ul>
 </div>
@@ -261,7 +248,7 @@ for the JavaScript code in this tag.
 <h3 id="sec-1-7">Learn It</h3>
 <div class="outline-text-3" id="text-1-7">
 <ul class="org-ul">
-<li>It would be inconvenient to have to swap in and out resistors to alter the potential difference reaching our GENIE chip. This is where a potentiometer comes in handy.
+<li>It would be inconvenient to have to swap in and out resistors to alter the potential difference reaching our 555 chip. This is where a potentiometer comes in handy.
 </li>
 <li>Imagine you had a length of resistive wire - as shown below.
 </li>
@@ -322,12 +309,12 @@ for the JavaScript code in this tag.
 <h3 id="sec-1-8">Build It</h3>
 <div class="outline-text-3" id="text-1-8">
 <ul class="org-ul">
-<li>Let's place a potentiometer into our circuit.
+<li>Let's place a potentiometer into a circuit.
 </li>
 </ul>
 
 <div class="figure">
-<p><img src="img/circuit7.png" alt="circuit7.png" />
+<p><img src="img/LEDcontrol.jpg" alt="LEDcontrol.jpg" />
 </p>
 </div>
 <ul class="org-ul">
@@ -340,19 +327,10 @@ for the JavaScript code in this tag.
 <h3 id="sec-1-9">Badge It - Platinum</h3>
 <div class="outline-text-3" id="text-1-9">
 <ul class="org-ul">
-<li>Create a circuit with a GENIE CO8 with three outputs that connect to LEDs.
-</li>
-<li>An analogue input should connect to a potentiometer.
-</li>
-<li>Now write a program that sets the number of LEDs that are on is determined by the potentiometer.
+<li>Adjust the values C1 and VR1 and write up an explanation as to how the potentiometer and the capacitor affect the LED output.
 </li>
 </ul>
 </div>
-</div>
-</div>
-</div>
-<div id="postamble" class="status">
-<p class="validation"></p>
 </div>
 </body>
 </html>
