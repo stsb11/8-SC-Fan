@@ -11,7 +11,7 @@
 #+BEGIN_HTML
   <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
-      <a href="https://github.com/stsb11/8-CS-Fan">Fork me on GitHub</a>
+      <a href="https://github.com/stsb11/8-SC-Fan">Fork me on GitHub</a>
     </div>
   </div>
 <div id="stickyribbon">
@@ -138,7 +138,7 @@ $$V_{top}=V_{total}-V_{bottom}$$
 - Why is this important?
 - By changing resistor values we can influence the timing of the 555 timer chip. This will speed up or slow down the time the capacitor takes to charge.
 - Set up the circuit as shown below.
-[[file:img/555circuit.jpg]]
+[[file:img/555circuit.JPG]]
 - Simulate the circuit and then start adjusting the potentiometer. 
 - If you hover the arrow over the motor, you can see the rpm of the motor and the current flow. 
 - Change the value of the potentiometer and see how it affects the speed and current flow through the motor.
@@ -170,7 +170,7 @@ $$V_{top}=V_{total}-V_{bottom}$$
 :HTML_CONTAINER_CLASS: build
 :END:
 - Let's place a potentiometer into a circuit.
-[[file:img/LEDcontrol.jpg]]
+[[file:img/LEDcontrol.JPG]]
 - Simulate the circuit and adjust the potentiometer to see how it effects the LED.
 ** Badge It - Platinum
 :PROPERTIES:
