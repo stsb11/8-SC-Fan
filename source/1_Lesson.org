@@ -11,7 +11,7 @@
 #+BEGIN_HTML
   <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
-      <a href="https://github.com/stsb11/8-CS-Fan">Fork me on GitHub</a>
+      <a href="https://github.com/stsb11/8-SC-Fan">Fork me on GitHub</a>
     </div>
   </div>
 <div id="stickyribbon">
@@ -108,11 +108,11 @@
 - Here is the board you will be soldering together.
 [[file:img/PCBstart.jpg]]
 - Please note, there are 2 components that have been replaced from the original board. The diode has been replaced by a 10mH inductor and the BC639 transistor has been replaced with a TIP122 transistor.
-[[./img/PCBchanges1.jpg]]
+[[./img/PCBchanges1.JPG]]
 - Solder in your components as shown below. *Do not solder on the leads for the motor, power supply or switch*
 [[file:img/PCBfinal.jpg]]
 - here is a picture with the replaced components.
-[[./img/PCBchanges2.jpg]]
+[[./img/PCBchanges2.JPG]]
 - Once you have soldered the board together, you can begin to assemble the case. Use masking tape to hold it together to start, and do not glue it until you are sure you have everything in the correct place.
 - Put together part of the case as shown below.
 [[file:img/Step1glue.jpg]]
@@ -123,7 +123,7 @@
 [[file:img/motor1.jpg]]
 - Remove the axel and the worm gear (with pliers), and then reverse the motor in it's housing.
 - You will first need to trim down the plastic guides at the back of the housing, using a side cutter.
-[[./img/Cuttinghousing.jpg]]
+[[./img/Cuttinghousing.JPG]]
 [[file:img/motor2.jpg]]
 - Now you'll want to solder on the leads for the motor and the switch *(Do not solder the battery wire yet)*. Use about 30cm of multi-core wire for the motor and power leads, and about 10cm of wire for the switch. You are advised, however, to try and judge how much wire you will need by placing your PCB in the case and feeding the wire through the holes. Remember, you'll want to twist the wires together as well, which will shorten them.
 - Make sure you feed the leads through their respective strain holes.

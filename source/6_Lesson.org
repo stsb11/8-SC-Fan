@@ -11,7 +11,7 @@
 #+BEGIN_HTML
   <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
-      <a href="https://github.com/stsb11/8-CS-Fan">Fork me on GitHub</a>
+      <a href="https://github.com/stsb11/8-SC-Fan">Fork me on GitHub</a>
     </div>
   </div>
 <div id="stickyribbon">
