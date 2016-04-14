@@ -104,7 +104,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- Open Circuit Wizard and create the circuit shown below.
+- Open Circuit Wizard and create the circuit shown below. NB. Voltmeters are listed under the test instructions folder.
 [[file:img/circuit1.png]]
 - Now press play and the three voltmeters should show potential difference across each of the resistors and across the pair of them.
 - Because both resistors have the same value, the potential difference supplies by the battery is equally /divided/ across each resistor.
