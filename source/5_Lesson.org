@@ -90,7 +90,7 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-* Assembling the case.
+* Assembling the case
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -100,7 +100,7 @@
 :END:
 - You have already assembled and mounted the motor.
 - Attaching the fan blade come next.
-- *Be careful not to push the fan blade to far back on the motor.*
+- *Be careful not to push the fan blade too far back on the motor.*
 [[./img/Fitfan.jpg]]
 - It is now time to connect the switches to the face plate. This can be done by simple pushing the potentiometer and switch through the holes and attaching a washer and nut to the other side.
 [[./img/Switchmount1.jpg]]

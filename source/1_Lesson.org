@@ -100,7 +100,8 @@
 :END:
 - In this project you're going to build a desktop-fan, whose speed can be controlled using a component called a potentiometer.
 - The circuit uses a 555 timer chip to control the fan.
-- You've had plenty of experience of soldering PCBs by now, so minimal guidance has been provided. However, putting together the actual fan takes time, so you are better off starting early.
+- You've had plenty of experience of soldering PCBs by now, so minimal guidance has been provided. 
+- However, putting together the actual fan takes time, so you are better off starting early.
 ** Build It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
@@ -109,9 +110,9 @@
 [[file:img/PCBstart.jpg]]
 - Please note, there are 2 components that have been replaced from the original board. The diode has been replaced by a 10mH inductor and the BC639 transistor has been replaced with a TIP122 transistor.
 [[./img/PCBchanges1.JPG]]
-- Solder in your components as shown below. *Do not solder on the leads for the motor, power supply or switch*
+- Solder in your components as shown below. *Do not solder on the leads for the motor, power supply or switch.*
 [[file:img/PCBfinal.jpg]]
-- here is a picture with the replaced components.
+- Here is a picture with the replaced components.
 [[./img/PCBchanges2.JPG]]
 - Once you have soldered the board together, you can begin to assemble the case. Use masking tape to hold it together to start, and do not glue it until you are sure you have everything in the correct place.
 - Put together part of the case as shown below.
@@ -121,7 +122,7 @@
 [[./img/Step4glue.jpg]]
 - Next you'll need a motor.
 [[file:img/motor1.jpg]]
-- Remove the axel and the worm gear (with pliers), and then reverse the motor in it's housing.
+- Remove the axle and the worm gear (with pliers), and then reverse the motor in it's housing.
 - You will first need to trim down the plastic guides at the back of the housing, using a side cutter.
 [[./img/Cuttinghousing.JPG]]
 [[file:img/motor2.jpg]]
@@ -134,7 +135,7 @@
 - You will need 2 machine screws and nuts.
 - *Note the 100nF capacitor soldered across the terminals of the motor.*
 [[./img/Screws.jpg]]
-- This can then be fitted to the back of the body, onto it's mounting plate.
+- This can now be fitted to the back of the body, onto it's mounting plate.
 [[./img/Motoronmount2.jpg]]
 - Solder the battery boxes together as shown below.
 [[file:img/case2.jpg]]
